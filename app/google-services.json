@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997916229127",
+    "project_id": "postit-b12e4",
+    "storage_bucket": "postit-b12e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997916229127:android:9ed2ad8aa7a2b5b58f74a2",
+        "android_client_info": {
+          "package_name": "com.hk210.postit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997916229127-71lkf7ih19e7uj6gvqgg3srtlj5rpkjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqenGsLzd1EYvmXSveO-pFReUC9vygSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997916229127-71lkf7ih19e7uj6gvqgg3srtlj5rpkjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
