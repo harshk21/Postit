@@ -20,6 +20,8 @@ import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.*;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -42,6 +44,14 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseApp.initializeApp(this, new FirebaseOptions.Builder()
+                .setApiKey("AIzaSyArqenGsLzd1EYvmXSveO-pFReUC9vygSQ")
+                .setProjectId("postit-b12e4")
+                .setApplicationId("1:997916229127:android:9ed2ad8aa7a2b5b58f74a2")
+                .setGcmSenderId("997916229127")
+                .setStorageBucket("postit-b12e4.appspot.com")
+                .build()
+        );
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide();
         mAuth = FirebaseAuth.getInstance();

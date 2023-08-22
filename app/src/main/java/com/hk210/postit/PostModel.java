@@ -1,16 +1,15 @@
 package com.hk210.postit;
 
-import com.google.firebase.Timestamp;
-
+import java.io.Serializable;
 import java.util.Date;
 
-public class PostModel {
+public class PostModel implements Serializable {
 
-    String description;
-    String post;
-    String title;
-    String userid;
-    Date timestamp;
+    public String description;
+    public String post;
+    public String title;
+    public String userid;
+    public Date timestamp;
 
 
 

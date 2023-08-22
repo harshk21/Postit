@@ -85,7 +85,7 @@ public class DashboardActivity extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user!=null){
                     System.out.println("User logged in");
-                    checkForProfileData();
+//                    checkForProfileData();
 
                 }
                 else{

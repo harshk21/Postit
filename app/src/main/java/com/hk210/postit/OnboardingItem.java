@@ -1,9 +1,11 @@
 package com.hk210.postit;
 
-public class OnboardingItem {
-    private int image;
-    private String title;
-    private String des;
+import java.io.Serializable;
+
+public class OnboardingItem implements Serializable {
+    public int image;
+    public String title;
+    public String des;
 
 
 
